@@ -9,9 +9,9 @@ from data_wrapper import db_wrapper
 
 load_dotenv()
 
-HOST = os.getenv('HOST')
+HOST = os.getenv('BASE_HOST')
 USERNAME = os.getenv('USERNAME')
-PASSWORD = os.getenv('PASSWORD')
+PASSWORD = os.getenv('BASE_PASSWORD')
 CA = os.getenv('CA')
 READONLY = os.getenv('READONLY')
 ANALYTICAL_HOST = os.getenv('ANALYTICAL_HOST')
